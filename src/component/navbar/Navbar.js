@@ -1,54 +1,44 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Navbar = () => {
-  const [tog, setTog] = useState(false);
   return (
-    <nav className="navbar navbar-expand-md ">
+    <nav className="navbar p-3 navbar-expand-md fixed-top ">
       <a href="#">
         <i className="fa fa-3x fa-code " />
       </a>
       <button
-        onClick={() => setTog(!tog)}
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#collapsibleNavbar"
       >
-        {tog ? (
-          <div>
-            <span className="line"></span>
-            <span className="line"></span>
-            <span className="line"></span>
-          </div>
-        ) : (
-          <span style={{ backgroundColor: "red" }} className="line"></span>
-        )}
+        <i className="fas fa-bars"></i>
       </button>
 
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav  ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#skills">
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Blogs
+            <a className="nav-link" href="#education">
+              Education
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#project">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#contuct">
               Contuct Me
             </a>
           </li>

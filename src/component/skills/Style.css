@@ -61,7 +61,15 @@
   position: absolute;
   object-fit: cover;
 }
-
+.title1 p{
+  font-size: 20px;
+}
+.title3 p{
+  font-size: 20px;
+}
+.title2 p{
+  font-size: 20px;
+}
 @media (max-width: 768px) {
   .skill_box span {
     transform: rotateY(calc(var(--i) * 40deg)) translateZ(250px);
@@ -79,6 +87,7 @@
     transform: rotateY(calc(var(--i) * 40deg)) translateZ(190px);
   }
 }
+
 
 @media (max-width: 390px) {
   .skill_box {
@@ -110,4 +119,15 @@
   background-color: rgb(230, 119, 224);
   color: white;
   transform: translateY(-30px);
+}
+.solveHeading {
+  border-bottom: 2px solid greenyellow;
+  width: 60%;
+  margin: auto;
+  color: rgb(235, 238, 84);
+}
+.problemSolve {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
 }

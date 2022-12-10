@@ -1,0 +1,17 @@
+.education {
+ 
+  margin-bottom: 100px;
+}
+
+.education img {
+  height: 100px;
+  width: 150px;
+}
+.eduHeading {
+  text-align: center;
+  border-bottom: 2px solid greenyellow;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+

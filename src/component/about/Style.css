@@ -1,0 +1,23 @@
+.about {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 auto
+}
+.about img{
+  height: 250px;
+  width: 250px;
+  border-radius:125px;
+}
+.about img:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+.aboutHeading {
+  text-align: center;
+  border-bottom: 2px solid greenyellow;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
