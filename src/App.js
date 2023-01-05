@@ -7,6 +7,7 @@ import Education from "./component/education/Education";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
 import Contact from "./component/contactForm/Contact";
+import Blog from "./component/blog/Blog";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <About />
       <Education />
+      <Blog />
       <Projects />
       <Contact />
       <Footer />
